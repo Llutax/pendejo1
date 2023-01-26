@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+body{
+    background-image: url(imagen/34253.jpg);
+    text-align: center;
+    color: aliceblue;
+}
+header{
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   position: fixed;
+   width: 100%;
+
+}
+
+nav {
+
+    display: flex;
+    margin-right: 10px;
+    justify-content: space-evenly;
+    background: #171717;
+    color: aliceblue;
+    height: 63px;
+    width: 100%;
+
+}
+
+nav a{
+    color: aliceblue;
+
+}
+#title{
+
+    height: 50vw;
+    display: flex;
+    align-items: center;
+    text-align: center; 
+}
+
+#title h1{
+
+    font-size: 4em;
+    justify-content: center;
+
+}
+
+#resumen{
+    padding: 150px;
+}
+#resumen h2{
+
+   justify-content: center;
+   align-items: center;
+   color: aliceblue;
+}
+
+#resumen p{
+    color: aliceblue;
+}
+
+#diagnostico{
+    padding: 150px;
+}
+#encuesta{
+    padding: 150px;
+}
+#encuesta a{
+    color: aliceblue;
+}
+#Justificacion{
+    padding: 150px;
+}
+#PROBLEMA{
+    padding: 150px;
+}
+#investigacion{
+    padding: 150px;
+}
